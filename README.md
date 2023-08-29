@@ -1,6 +1,6 @@
 # CookieRain
 
-A tool to export [Netscape formatted](http://curl.haxx.se/rfc/cookie_spec.html) cookies via [CookieCloud](https://github.com/easychen/CookieCloud).
+A tool to export [Netscape formatted](http://curl.haxx.se/rfc/cookie_spec.html) cookies via [CookieCloud](https://github.com/easychen/CookieCloud).\
 Which is able to use on tools like [youtube-dl](https://github.com/ytdl-org/youtube-dl) or [yt-dlp](https://github.com/yt-dlp/yt-dlp), etc.
 
 ## Usage
