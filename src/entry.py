@@ -1,6 +1,6 @@
 from loguru import logger
 from .cookie_cloud_client.config import Config
-from .cookie_cloud_client.core import CookieCloud
+from .cookie_cloud_client.client import CookieCloud
 
 
 def download_video_websites_cookies() -> None:

@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "CookieRain"
-version = "0.1.1"
+version = "0.1.2"
 description = "A tool to export Netscape formatted cookies via CookieCloud."
 authors = ["unacro <git@ews.ink>"]
 license = "GNU GPL v3"
