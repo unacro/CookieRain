@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "CookieRain"
+version = "0.1.0"
+description = ""
+authors = ["unacro <git@ews.ink>"]
+license = "GNU GPL v3"
+readme = "README.md"
+repository = "https://github.com/unacro/CookieRain"
+packages = [
+    { include = "src" },
+]
+
+[tool.poetry.scripts]
+start = "src.entry:main"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+loguru = "^0.7.0"
+python-dotenv = "^1.0.0"
+pycryptodomex = "^3.18.0"
+PyCookieCloud = "^1.0.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
