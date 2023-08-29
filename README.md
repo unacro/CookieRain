@@ -12,3 +12,7 @@ Which is able to use on tools like [you-get](https://github.com/soimort/you-get)
 3. `poetry install`
 4. `cp .env.example .env` and edit the `.env` file
 5. `poetry run start`
+
+And you may use the exported cookies to do what you wanna do.\
+For example: `yt-dlp --cookies 'CACHE_PATH/your_CookieCloud_user_key.cookies' 'video_link'`
+
