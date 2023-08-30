@@ -14,5 +14,4 @@ Which is able to use on tools like [you-get](https://github.com/soimort/you-get)
 5. `poetry run start`
 
 And you may use the exported cookies to do what you wanna do.\
-For example: `yt-dlp --cookies 'CACHE_PATH/your_CookieCloud_user_key.cookies' 'video_link'`
-
+For example: `yt-dlp --cookies 'CACHE_PATH/your_CookieCloud_user_key.cookies.txt' 'video_link'`

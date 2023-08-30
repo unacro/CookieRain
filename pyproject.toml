@@ -1,9 +1,9 @@
 [tool.poetry]
 name = "CookieRain"
-version = "0.1.3"
+version = "0.1.4"
 description = "A tool to export Netscape formatted cookies via CookieCloud."
 authors = ["unacro <git@ews.ink>"]
-license = "GNU GPL v3"
+license = "GNU General Public License v3.0"
 readme = "README.md"
 repository = "https://github.com/unacro/CookieRain"
 packages = [
@@ -14,7 +14,7 @@ packages = [
 start = "src.entry:main"
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = "^3.10"
 loguru = "^0.7.0"
 python-dotenv = "^1.0.0"
 pycryptodomex = "^3.18.0"
